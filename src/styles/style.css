@@ -1,0 +1,49 @@
+ *{margin: 0;
+      padding: 0;
+      box-sizing: border-box;}
+body {font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      background-color: #EFE4E4;}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+      .header{
+          margin-top: 1rem;
+          padding: 2rem;
+          display: flex;
+          justify-content: space-between;
+          background-color: #EFE4E4;
+        }
+
+      .navigation> ul{
+          display: flex;
+          gap: 1rem;
+        }
+
+      ul{
+          list-style-type: none;
+        }
+        
+        .sidebar{
+            width: 200px;
+            background-color: #EFE4E4;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+         }
+          
+         .main-content {
+            margin-left: 1px;
+            padding: 10px;
+          }
+
+          .note-card {
+            border: 1px solid #ddd;
+            margin: 1px;
+            padding: 10px;
+            border-radius: 5px;
+          }
