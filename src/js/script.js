@@ -1,7 +1,12 @@
 todos = []
 
 function addTodo (content) {
-    console.log(content)
+   todos.push(content)
 }
 
 addTodo('Содержимое заметки 1')
+addTodo('Содержимое заметки 2')
+addTodo('Содержимое заметки 3')
+addTodo('Содержимое заметки 4')
+
+ console.log(todos)
