@@ -1,7 +1,8 @@
-
 let todos = [];
-
 let id = 0
+let output = document.querySelector ('#output')
+
+output.innerHTML = "Текст"
 
 function addTodo (content) {
    let todo = {
@@ -25,7 +26,7 @@ addTodo('Содержимое заметки 4')
 
 function printTodo(todos) {
     for (let i = 0; i < todos.length; i++){
-        console.log(todos[i].content)
+        output.innerHTML += todos[i].content
     }
 }
 
