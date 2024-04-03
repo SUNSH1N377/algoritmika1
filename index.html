@@ -5,11 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet"href="./src/styles/style.css">
 </head>
 <body>
-    <h1> Заголовок </h1>
-    <div> Блолочный элемент </div>
-    <p> Параграфа </p>
-    <a href=""> Ссылка</a>
+  <div class="container">
+    
+    <header class="header">
+        <div class="logo">
+            <a href="#">Заметки лого</a>
+        </div>
+        
+        <div class="searching">
+            <input type="text" value="search">
+            <button class="bth">search</button>
+        </div>
+        
+        <div class="navigation">
+            <ul>
+                <li><a href=""><img src="./src/image 1.png" alt=""></a></li>
+                <li><a href=""><img src="./src/image 2.png" alt=""></a></li>
+            </ul>
+            
+        </div>
+        
+    </header>
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+            <h2>.Мои заметки.</h2>
+
+            <div class="main-content">
+                <div class="note-card">
+                  <h2>Заметка 1</h2>
+                  <p>Содержимое заметки 1...</p>
+                </div>
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
