@@ -12,3 +12,5 @@
 
 
 [Ссылка на репозиторий проекта] (https://github.com/SUNSH1N377/algoritmika1)
+
+!
