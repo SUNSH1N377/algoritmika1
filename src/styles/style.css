@@ -1,49 +1,91 @@
- *{margin: 0;
-      padding: 0;
-      box-sizing: border-box;}
-body {font-family: Arial, Helvetica, sans-serif;
-      color: black;
-      background-color: #EFE4E4;}
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   background-color: #EFE4E4;
+ }
 
-      .header{
-          margin-top: 1rem;
-          padding: 2rem;
-          display: flex;
-          justify-content: space-between;
-          background-color: #EFE4E4;
-        }
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+ }
 
-      .navigation> ul{
-          display: flex;
-          gap: 1rem;
-        }
+ .header {
+   margin-top: 1rem;
+   padding: 2rem;
+   display: flex;
+   justify-content: space-between;
+   background-color: #EFE4E4;
+ }
 
-      ul{
-          list-style-type: none;
-        }
-        
-        .sidebar{
-            width: 200px;
-            background-color: #EFE4E4;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
-         }
-          
-         .main-content {
-            margin-left: 1px;
-            padding: 10px;
-          }
+ .navigation>ul {
+   display: flex;
+   gap: 1rem;
+ }
 
-          .note-card {
-            border: 1px solid #ddd;
-            margin: 1px;
-            padding: 10px;
-            border-radius: 5px;
-          }
+ ul {
+   list-style-type: none;
+ }
+
+ .sidebar {
+   width: 200px;
+   background-color: #EFE4E4;
+   height: 100%;
+   overflow: auto;
+ }
+
+ .main-content {
+   margin-left: 1px;
+   padding: 10px;
+ }
+
+ .note-card {
+   border: 1px solid #ddd;
+   margin: 1px;
+   padding: 10px;
+   border-radius: 5px;
+
+ }
+
+ #output {
+   color: black
+ }
+
+ .item {
+   background-color: rgb(178, 228, 250);
+   height: 150px;
+   padding: 15px;
+   border-radius: 15px;
+   border: 2px solid honeydew;
+ }
+
+ .item>h2 {
+   color: honeydew;
+ }
+
+ .item>p {
+   color: navy;
+ }
+
+ .item>button {
+   color: skyblue
+ }
+
+ .container1 {
+
+   display: flex;
+   gap: 3rem;
+ }
+
+ .tasc {
+   height: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 3rem;
+ }
