@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  * {
    margin: 0;
    padding: 0;
@@ -90,7 +90,7 @@
    flex-wrap: wrap;
    gap: 3rem;
  }
-=======
+
 * {
   margin: 0;
   padding: 0;
@@ -184,4 +184,4 @@ ul {
   gap:3rem; 
   height:200px;
 }
->>>>>>> 19d3b4f0fc3d63e03d80a849662bb79029225127
+
